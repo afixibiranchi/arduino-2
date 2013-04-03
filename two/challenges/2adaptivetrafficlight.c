@@ -9,8 +9,8 @@ int LEDyellow = 11;
 int LEDred = 10;
 int button = 8;
 
-int delayAtRed = 3000; // normal time to stay at red
-int decrementAmount = 500; // amount to decrease per car (button press)
+int delayAtRed = 10000; // normal time to stay at red
+int decrementAmount = 2000; // amount to decrease per car (button press)
 
 void setup() {
   pinMode(LEDgreen, OUTPUT);
