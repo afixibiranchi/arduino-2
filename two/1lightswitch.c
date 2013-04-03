@@ -6,7 +6,7 @@
 // connect one side of the button to a digital pin and the other to 5V
 
 int button = 8;
-int LED = 13;
+int LED = 12;
 
 void setup() {  
   pinMode(button, INPUT);
