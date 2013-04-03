@@ -21,7 +21,7 @@ void setup() {
 
 void loop() {
   // update debounce
-  bounce.update();
+  buttonBounced.update();
 
   // get debounced value
   int buttonState = buttonBounced.read();
